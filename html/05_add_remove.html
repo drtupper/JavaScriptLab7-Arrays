@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <a href="../index.html">Back to the Main Page</a>
+    <h1>Page 5: Adding and Removing Items from an Array</h1>
+    <p>Sometimes you need to add additional items to an array or remove some of the existing item.</p>
+    <p>To add an item to an array, you can use <strong>unshift</strong> or <strong>push</strong>. Unshift adds an item
+        to the beginning of the array and shifts all the other items to a higher index number. Push adds an item to the end of the array.  The syntax is:<br><strong>array_name.unshift();</strong><br><strong>array_name.push();</strong></p>
+    <p>If you need to remove an item from an array, you can use shift or pop. Shift removes the first item in the array,
+        and pop removes the last item in the array. The syntax is:<br>
+        <strong>array_name.shift();</strong><br>
+        <strong>array_name.pop();</strong>
+    </p>
+    <p>You can also add and remove items from an array using <strong>splice()</strong> and <strong>slice()</strong>.
+        These methods are actually more flexible than shift, pop, unshift, and push because they allow you to add and
+        remove the items from <strong>any</strong> location in the array.</p>
+    <p>The syntax for <strong>splice(), which adds items to an array is:</strong></p>
+    <p><strong>array_name.splice(2, 0, "item1", "item2");</strong></p>
+    <p>Note that the first parameter, 2, is the position in the array where the items should be added, and the second
+        parameter, 0, is how many items should be removed. The remaining parameters are the things that will be added to the array.  You can adjust these parameters to your needs.</p>
+    <p>The syntax for <strong>slice()</strong>, which removes items from an array is:</p>
+    <p><strong>array_name.slice(2);</strong></p>
+    <p>Note that parameter, 2, is the position in the array before which the items should be removed. A new array will be returned that does not include any of the items with an index less than 2.</p>
+
+
+    <p>1. Go to the 05_add_remove.html file and link the 05_add_remove.js file. You will know that you've done this
+        correctly if you see the statement "05_add_remove.js linked" when you refresh this page</p>
+
+    <script></script>
+
+    <p>2. Go to 05_add_remove.js file and follow instructions to practice adding and removing items from arrays.</p>
+
+    <a href="04_sort.html">Previous</a>
+    
+    <br>
+
+</body>
+
+</html>
